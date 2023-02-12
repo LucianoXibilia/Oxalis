@@ -1,0 +1,290 @@
+/*Header*/
+
+
+
+.header{
+    position: sticky;
+    top: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: rgb(183, 125, 238);
+    color: rgb(177, 70, 199);
+    z-index: 1000;
+}
+.titulo{
+    font-size: 2.5em;
+    margin-left: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.5em;
+}
+.nav{
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    font-size: 1.5em;
+}
+
+
+
+/*Footer*/
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(97, 53, 138);
+}
+.footer__contenido{ 
+    margin: 1em;
+}
+.footer__contenido .Titulos{ 
+    font-size: 24px;
+}
+.footer__contenido .Textos{ 
+    font-size: 16px;
+}
+
+
+/*Textos*/
+.Textos{
+    font-family: 'Oswald', sans-serif;
+}
+.Titulos{
+    font-family: 'Montserrat', sans-serif;
+}
+.Div__titulo{
+    background-color: rgb(98, 30, 161);
+    padding-left: 1em;
+}
+
+
+
+/*Index*/
+.ultimoslanz{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-left: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5em;
+    background-color: rgb(141, 79, 199);
+    
+}
+.ultimoslanz div{
+    display:inline-block
+}
+.ultimoslanz h2{
+    padding: 0.5em;
+}
+.bolsodemaqui{
+    width: 20em;
+    height: 22em;
+    padding: 1em;
+}
+.ultimoslanz h3{
+    position: relative;
+    top: 10em; 
+}
+.productos{
+    margin: 10%;
+    margin-top: 5em;
+    background-color: rgb(141, 79, 199);
+}
+.productos h2{
+    padding-top: 2.5em;
+    padding-left: 2.5em;
+}
+.productos__img{
+    display: flex;
+    align-items: baseline;
+}
+.productos__img--paleta{
+    display: inline-block;
+    margin: 10%;
+    margin-top: 5%;
+}
+.productos__img--pack{
+    display: inline-block;
+    margin: 10%;
+}
+.paletalim{
+    width: 20em;
+    height: 22em;
+}
+
+.packdeesmal{
+    width: 20em;
+    height: 22em;
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(97, 53, 138);
+}
+.footer__contenido{ 
+    margin: 1em;
+}
+
+
+
+/*Producos*/
+.img{
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    height: 10em;
+    width: 10em;
+}
+
+main div h2{
+    font-size: 3em;
+}
+
+h3{
+    text-align: center;
+}
+.cajas--productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    background-color: rgb(138, 44, 226)
+}
+.cajas__producto--productos{
+    display: inline-block;
+    background-color: rgb(141, 79, 199);
+    height: 15em;
+    width: 15em;
+    margin: 3em;
+}
+
+
+
+/*Ofertas*/
+main div h2{
+    font-size: 3em;
+}
+h3{
+    text-align: center;
+}
+.cajas{
+    background-color: rgb(138, 43, 226);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.cajas__producto{
+    display: inline-block;
+    background-color: rgb(141, 79, 199);
+    height: 15em;
+    width: 15em;
+    margin: 3em;
+}
+.cajas__producto--ofertas{
+    display: inline-block;
+    align-items: baseline;
+    background-color: rgb(141, 79, 199);
+    height: auto;
+    width: auto;
+    margin: 3em;
+}
+.cajas__producto--ofertas--img{
+    display: inline-block;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: auto;
+    margin: 2.5em;
+}
+.cajas__producto--ofertas .Titulos{
+    margin-top: 10px;
+}
+
+
+
+
+/*contactos*/
+.cajas__contactos--ceo{
+    display: inline-block;
+    background-color: rgb(141, 79, 199);
+    height: 25em;
+    width: 40em;
+    margin: 3em;
+}
+
+.img--ceo{
+    height: 20em;
+    width: 14em;
+    margin-top: 40px;
+    margin-left: 20px;
+    float: left;
+}
+p{
+    margin-top: 40px;
+    margin-left: auto;
+}
+.cajas__contactos--comercial{
+    display: inline-block;
+    background-color: rgb(141, 79, 199);
+    height: 19em;
+    width: 40em;
+    margin: 3em;
+}
+.img--com{
+    height: 14em;
+    width: 14em;
+    margin-top: 40px;
+    margin-left: 20px;
+    float: left;
+}
+.cajas__contactos--marketing{
+    display: inline-block;
+    background-color: rgb(141, 79, 199);
+    height: 19em;
+    width: 40em;
+    margin: 3em;
+}
+.img--mar{
+    height: 14em;
+    width: 14em;
+    margin-top: 40px;
+    margin-left: 20px;
+    float: left;
+}
+
+
+
+/*nosotros*/
+p{
+    margin: 0 auto;
+    font-size: 24px;
+}
+.img--teamwork{
+    width: 96px;
+    height: 96px;
+    float: left;
+}
+.img--conejo{
+    width: 96px;
+    height: 96px;
+    float: right;
+}
+.div__textos{
+    display: flex;
+    background-color: rgb(141, 79, 199);
+}
+.div__textos--mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(141, 79, 199);
+}
+.body{
+    background-image: url(fondo.jpeg);
+}
