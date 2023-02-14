@@ -138,8 +138,8 @@
     display: block;
     margin: auto;
     margin-top: 1em;
-    height: 10em;
-    width: 10em;
+    height: 7.5em;
+    width: 7.5em;
 }
 
 main div h2{
@@ -159,12 +159,26 @@ h3{
 .cajas__producto--productos{
     display: inline-block;
     background-color: rgb(141, 79, 199);
-    height: 15em;
-    width: 15em;
+    height: 12.5em;
+    width: 12.5em;
     margin: 3em;
 }
-
-
+.textos--productos{
+    font-size: 16px;
+    font-weight: 750;
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .cajas__producto--productos{
+        height: 13em;
+        width: 13em;
+    }
+}
+@media (min-width: 768px){
+    .cajas__producto--productos{
+        height: 15em;
+        width: 15em;
+    }
+}
 
 /*Ofertas*/
 main div h2{
