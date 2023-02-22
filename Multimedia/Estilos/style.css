@@ -9,15 +9,13 @@
     margin-bottom: 1%;
     margin-right: 15%;
     margin-left: 15%;
-    background-color: rgb(183, 125, 238);
-    color: rgb(177, 70, 199);
     z-index: 1000;
 }
 li{
     display: inline-block;
     list-style: none;
 }
-.titulo{
+.header__titulo{
     font-size: 2.5em;
     margin-left: 1em;
     font-family: 'Montserrat', sans-serif;
@@ -60,6 +58,13 @@ li{
 .Div__titulo{
     background-color: rgb(98, 30, 161);
     padding-left: 1em;
+    width: 100%;
+    font-size: 12px;
+}
+@media (min-width:768px){
+    .Div__titulo{
+        font-size: 16px;
+    }
 }
 
 
@@ -142,8 +147,8 @@ li{
     display: block;
     margin: auto;
     margin-top: 1em;
-    height: 7.5em;
-    width: 7.5em;
+    height: 8.5em;
+    width: 8.5em;
 }
 
 main div h2{
@@ -153,44 +158,26 @@ main div h2{
 h3{
     text-align: center;
 }
-.cajas--productos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    background-color: rgb(138, 44, 226)
-}
-.cajas__producto--productos{
+.produ__cajas__producto{
     display: inline-block;
     background-color: rgb(141, 79, 199);
-    height: 12.5em;
-    width: 12.5em;
+    height: 13em;
+    width: 13em;
     margin: 3em;
 }
 .textos--productos{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 750;
 }
-@media (min-width: 768px) and (max-width: 992px){
-    .cajas__producto--productos{
-        height: 13em;
-        width: 13em;
-    }
-}
-@media (min-width: 768px){
-    .cajas__producto--productos{
-        height: 15em;
-        width: 15em;
-    }
-}
+
 
 /*Ofertas*/
 .img__ofertas{
     display: block;
     margin: auto;
     margin-top: 1em;
-    height: 5em;
-    width: 5em;
+    height: 8.5em;
+    width: 8.5em;
 }
 main div h2{
     font-size: 3em;
@@ -207,11 +194,11 @@ h3{
     justify-content: center;
 }
 .cajas__producto{
-    display: inline-block;
+    display: inline;
     background-color: rgb(141, 79, 199);
-    height: 8.5em;
-    width: 8.5em;
-    margin: 2.5em;
+    height: 13em;
+    width: 13em;
+    margin: 2em;
 }
 .cajas__producto--ofertas{
     display: inline-block;
@@ -226,15 +213,15 @@ h3{
 .cajas__producto--ofertas--img{
     display: inline-block;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
-    margin: 2.5em;
+    margin: 2em;
 }
 .cajas__producto--ofertas .Titulos{
     margin-top: 10px;
 }
 .textos--ofertas{
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 750;
 }
 @media (min-width: 992px){
@@ -337,5 +324,5 @@ p{
     background-color: rgb(141, 79, 199);
 }
 .body{
-    background-image: url(fondo.jpeg);
+    background-image: url(../Imagenes/fondo.jpeg);
 }
