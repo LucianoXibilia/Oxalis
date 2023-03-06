@@ -292,7 +292,7 @@ h3{
 .cajas__contactos--parafo{
     margin: 0 auto;
     margin-left: auto;
-    font-size: 25px;
+    font-size: 22px;
 }
 .cajas__contactos--comercial{
     display: inline-block;
@@ -330,18 +330,41 @@ h3{
     margin-left: 20px;
     float: left;
 }
-
+@media(min-width: 576px){
+    .cajas__contactos--parafo{
+        font-size: 28px;
+    }
+    .img--ceo{
+        height: 20em;
+        width: 14em;
+    }
+    .img--com{
+        height: 14em;
+        width: 14em;
+    }
+    .img--mar{
+        height: 14em;
+        width: 14em;
+    }
+}
+@media(min-width: 768px){
+    .cajas__contactos--parafo{
+        font-size: 34px;
+    }
+}
 
 
 /*nosotros*/
 p{
     margin: 0 auto;
     font-size: 24px;
+    padding-left: 1em;
 }
 .img--teamwork{
     width: 96px;
     height: 96px;
     float: left;
+    margin-right: 1em;
 }
 .img--conejo{
     width: 96px;
@@ -358,8 +381,39 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(141, 79, 199);
+    background-color: rgb(81, 38, 121);
 }
 .body{
     background-image: url(../Imagenes/fondo.jpeg);
+}
+@media(min-width: 576px){
+    p{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+@media(min-width: 768px){
+    p{
+        margin-left: 4em;
+        margin-right: 4em;
+        font-size: 28px;
+    }
+}
+@media(min-width: 992px){
+    p{
+        font-size: 30px;
+    }
+    .img--teamwork{
+        width: 126px;
+        height: 126px;
+    }
+    .img--conejo{
+        width: 126px;
+        height: 126px;
+    }
+}
+@media(min-width: 1200px){
+    p{
+        font-size: 32px;
+    }
 }
