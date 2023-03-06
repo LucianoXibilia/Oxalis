@@ -70,74 +70,107 @@ li{
 .ultimoslanz{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: baseline;
-    padding-left: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 5em;
-    background-color: rgb(141, 79, 199);
+    background-color: rgb(97, 53, 138);
     div{
-        display:inline-block
+        display:inline-block;
     }
     h2{
         padding: 0.5em;
     }
     h3{
-        position: relative;
-        top: 10em;
+        padding: 6px;
+        font-size: 22px;
+    }
 }
 .ultimoslanz__bolsodemaqui{
-    width: 20em;
+    width: 22em;
     height: 22em;
     padding: 1em;
-} 
+    } 
+.ultimoslanz__titulo{
+    font-size: 25px;
 }
 .productos{
     margin: 10%;
     margin-top: 5em;
-    background-color: rgb(141, 79, 199);
+    background-color: rgb(97, 53, 138);
     h2{
-        padding-top: 2.5em;
-        padding-left: 2.5em;
+        font-size: 25px;
+        padding-top: 5px;
+        margin-left: 20px;
+    }
+    h3{
+        font-size: 20px;
     }
 } 
+.productos__titulos{
+    font-size: 20px;
+}
 .productos__img{
     display: flex;
-    align-items: baseline;
+    justify-content: space-around;
 }
 .productos__img--paleta{
     display: inline-block;
-    margin: 10%;
-    margin-top: 5%;
 }
 .productos__img--pack{
     display: inline-block;
-    margin: 10%;
 }
 .paletalim{
-    width: 20em;
-    height: 22em;
+    width: 7em;
+    height: 7em;
+    display: block;
+    margin: auto;
 }
-
 .packdeesmal{
-    width: 20em;
-    height: 22em;
+    width: 7em;
+    height: 7em;
+    display: block;
+    margin: auto;
 }
-
-
-
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgb(97, 53, 138);
+@media (min-width: 576px){
+    .ultimoslanz__titulo{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .productos__titulos{
+        font-size: 26px;
+        font-weight: 700;
+    }
 }
-.footer__contenido{ 
-    margin: 1em;
+@media (min-width:768px){
+    .paletalim{
+        width: 10em;
+        height: 10em;
+
+    }
+    .packdeesmal{
+        width: 10em;
+        height: 10em;
+
+    }
+    .ultimoslanz__titulo{
+        font-size: 28px;
+    }
+    .productos__titulos{
+        font-size: 28px;
+    }
 }
-
-
-
+@media (min-width: 992px){
+    .paletalim{
+        width: 15em;
+        height: 15em;
+    }
+    .packdeesmal{
+        width: 15em;
+        height: 15em;
+    }
+}
 /*Producos*/
 .img{
     display: block;
