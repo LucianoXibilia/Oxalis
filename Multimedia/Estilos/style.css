@@ -295,16 +295,20 @@ h3 {
 }
 
 .img--ceo {
-  height: 20em;
+  /*height: 20em;
   width: 14em;
+  */
+  height: 10em;
+  width: 7em;
   margin-top: 40px;
   margin-left: 20px;
   float: left;
 }
 
-p {
-  margin-top: 40px;
+.cajas__contactos--parafo {
+  margin: 0 auto;
   margin-left: auto;
+  font-size: 25px;
 }
 
 .cajas__contactos--comercial {
@@ -316,8 +320,12 @@ p {
 }
 
 .img--com {
+  /*
   height: 14em;
   width: 14em;
+  */
+  height: 8em;
+  width: 8em;
   margin-top: 40px;
   margin-left: 20px;
   float: left;
@@ -332,8 +340,12 @@ p {
 }
 
 .img--mar {
+  /*
   height: 14em;
   width: 14em;
+  */
+  height: 7em;
+  width: 7em;
   margin-top: 40px;
   margin-left: 20px;
   float: left;
@@ -358,8 +370,10 @@ p {
 }
 
 .div__textos {
+  margin-top: 0px;
+  margin-bottom: 0px;
   display: flex;
-  background-color: rgb(141, 79, 199);
+  background-color: rgb(81, 38, 121);
 }
 
 .div__textos--mapa {
