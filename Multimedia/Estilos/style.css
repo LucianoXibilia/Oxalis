@@ -28,6 +28,10 @@ li {
   font-size: 1.5em;
 }
 
+.navbar-toggler-icon {
+  background-image: url(../Imagenes/menuu.png);
+}
+
 /*Footer*/
 .footer {
   display: flex;
@@ -51,10 +55,12 @@ li {
 /*Textos*/
 .Textos {
   font-family: "Oswald", sans-serif;
+  color: rgb(204, 204, 204);
 }
 
 .Titulos {
   font-family: "Montserrat", sans-serif;
+  color: rgb(204, 204, 204);
 }
 
 .Div__titulo {

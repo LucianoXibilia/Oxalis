@@ -24,6 +24,9 @@ li{
     padding-left: 1em;
     font-size: 1.5em;
 }
+.navbar-toggler-icon{
+    background-image: url(../Imagenes/menuu.png);
+}
 
 
 
@@ -46,11 +49,16 @@ li{
 
 
 /*Textos*/
+@mixin textos_colores(){
+    color: rgb(204, 204, 204);
+}
 .Textos{
     font-family: 'Oswald', sans-serif;
+    @include textos_colores()
 }
 .Titulos{
     font-family: 'Montserrat', sans-serif;
+    @include textos_colores()
 }
 .Div__titulo{
     background-color: rgb(98, 30, 161);
